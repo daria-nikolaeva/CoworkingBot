@@ -1,0 +1,55 @@
+body {
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .container {
+    max-width: 390px;
+ }
+
+ .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:200px 200px 200px;
+ }
+
+ .img {
+    width: 140px;
+    height: 140px;
+    
+ }
+
+ .item {
+    text-align: center;
+ }
+
+ .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(248,168,24);
+    color: #ffff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+
+    transition: background .2s linear ;
+ }
+
+ .button:hover {
+background: greenyellow;
+ }
+
+ .usercard {
+    text-align: center;
+ }
+
+ .text {
+    font-size: small;
+    font: icon;
+    margin: 0;
+ }
