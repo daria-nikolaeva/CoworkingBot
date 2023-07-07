@@ -25,6 +25,8 @@ function buttonClick(itemName){
     if(tg.MainButton.IsVisible){
         tg.MainButton.hide();
     }else{
-        tg.MainButton.SetText("Вы выбрали "+itemName);
+        tg.MainButton.setText("Вы выбрали "+itemName);
     }
 }
+
+Telegram.WebApp.OnEvent('mainButtonClicked');
