@@ -13,7 +13,7 @@ let btn4=Element.GetElementById("btn4");
 let btn5=Element.GetElementById("btn5");
 let btn6=Element.GetElementById("btn6");
 
-btn1.addEventListener("click",buttonClick("SMAS"));
+btn1.addEventListener("click", buttonClick("SMAS"));
 btn2.addEventListener("click",buttonClick("DOT"));
 btn3.addEventListener("click",buttonClick("SMAS"));
 btn4.addEventListener("click",buttonClick("SMAS"));
@@ -25,7 +25,8 @@ function buttonClick(itemName){
     if(tg.MainButton.IsVisible){
         tg.MainButton.hide();
     }else{
-        tg.MainButton.setText("Вы выбрали "+itemName);
+        tg.MainButton.setText("Вы выбрали " + itemName);
+        tg.MainButton.show();
     }
 }
 
