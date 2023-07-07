@@ -1,5 +1,9 @@
 let tg=window.Telegram.WebApp;
 
+if (tg.MainButton.isVisible) {
+    tg.MainButton.hide();
+}
+
 tg.expand();
 tg.MainButton.textColor='#FFFFFF';
 tg.MainButton.color='#2cab37';
