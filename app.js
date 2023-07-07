@@ -1,8 +1,6 @@
 let tg=window.Telegram.WebApp;
 
-if (tg.MainButton.isVisible) {
-    tg.MainButton.hide();
-}
+
 
 tg.expand();
 tg.MainButton.textColor='#FFFFFF';
@@ -37,4 +35,4 @@ function buttonClick(itemName){
     }
 }
 
-Telegram.WebApp.onEvent('mainButtonClicked');
+Telegram.WebApp.onEvent('mainButtonClicked', function () { tg.sendData(item) });
