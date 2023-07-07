@@ -13,7 +13,7 @@ let btn4 = Element.getElementById("btn4");
 let btn5 = Element.getElementById("btn5");
 let btn6 = Element.getElementById("btn6");
 
-btn1.addEventListener("click", buttonClick("SMAS"));
+btn1.addEventListener("click",buttonClick("SMAS"));
 btn2.addEventListener("click",buttonClick("DOT"));
 btn3.addEventListener("click",buttonClick("SMAS"));
 btn4.addEventListener("click",buttonClick("SMAS"));
