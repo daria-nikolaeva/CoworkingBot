@@ -15,12 +15,12 @@ let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
-btn1.addEventListener("click",buttonClick("SMAS"));
-btn2.addEventListener("click",buttonClick("DOT"));
-btn3.addEventListener("click",buttonClick("SMAS"));
-btn4.addEventListener("click",buttonClick("SMAS"));
-btn5.addEventListener("click",buttonClick("SMAS"));
-btn6.addEventListener("click",buttonClick("SMAS"));
+btn1.addEventListener("click", finction(){ buttonClick("SMAS") });
+btn2.addEventListener("click", finction(){ buttonClick("DOT") });
+btn3.addEventListener("click", finction(){ buttonClick("SMAS") });
+btn4.addEventListener("click", finction(){ buttonClick("SMAS") });
+btn5.addEventListener("click", finction(){ buttonClick("SMAS") });
+btn6.addEventListener("click", finction(){ buttonClick("SMAS") });
 
 
 function buttonClick(itemName){
