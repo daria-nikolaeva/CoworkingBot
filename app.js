@@ -35,4 +35,4 @@ function buttonClick(itemName){
     }
 }
 
-Telegram.WebApp.onEvent('mainButtonClicked', function() { tg.sendData(item) });
+tg.onEvent('mainButtonClicked', function() { tg.sendData(item) });
