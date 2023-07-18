@@ -22,7 +22,8 @@ btn1.addEventListener("click", function () {
     else {
         tg.MainButton.setText("Вы выбрали SMAS");
         tg.MainButton.show();
-    } });
+    }
+});
 btn2.addEventListener("click", function () {buttonClick("DOT"); });
 btn3.addEventListener("click", function () {buttonClick("SMAS"); });
 btn4.addEventListener("click", function () {buttonClick("SMAS"); });
