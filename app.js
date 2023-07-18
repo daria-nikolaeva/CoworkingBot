@@ -65,5 +65,11 @@ function buttonClick(itemName){
         tg.MainButton.show();
     }
 }
+function sendData(itemName) {
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', '/button');
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.send(JSON.stringify({ chatId: 'YOUR_CHAT_ID', itemName: itemName }));
+}
 
 tg.onEvent('mainButtonClicked', function() { tg.sendData(item) });
